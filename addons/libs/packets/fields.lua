@@ -3588,7 +3588,7 @@ fields.incoming[0x113] = L{
     {ctype='signed int',        label='Therion Ichor'},                         -- A0
     {ctype='signed int',        label='Allied Notes'},                          -- A4
     {ctype='unsigned short',    label='A.M.A.N. Vouchers Stored'},              -- A8
-    {ctype='unsigned short',    label='Unity Accolades'},                       -- AA
+    {ctype='unsigned short',    label='Login Points'},		                    -- AA
     {ctype='signed int',        label='Cruor'},                                 -- AC
     {ctype='signed int',        label='Resistance Credits'},                    -- B0
     {ctype='signed int',        label='Dominion Notes'},                        -- B4
@@ -3604,8 +3604,15 @@ fields.incoming[0x113] = L{
     {ctype='signed int',        label='Voidstones'},                            -- C4
     {ctype='signed int',        label='Kupofried\'s Corundums'},                -- C8
     {ctype='unsigned char',     label='Moblin Pheromone Sacks'},                -- CC
+	{ctype='unsigned char',		label='_unknown1'},								-- CD
+	{ctype='unsigned short',	label='_unknown2'},								-- CE
+	{ctype='signed int',		label='_unknown3'},								-- D0
+	{ctype='signed int',		label='_unknown4'},								-- D4
+	{ctype='signed int',		label='_unknown5'},								-- D8
+	{ctype='signed int',		label='_unknown6'},								-- DC
+	{ctype='signed int',		label='_unknown7'},								-- E0
+	{ctype='signed int',		label='Unity Accolades'},						-- E4
 }
-
 -- Fish Bite Info
 fields.incoming[0x115] = L{
     {ctype='unsigned short',    label='_unknown1'},                             -- 04
